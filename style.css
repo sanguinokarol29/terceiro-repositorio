@@ -12,6 +12,7 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
+    font-family: "Montserrat ital";
 }
 
 .conteudo-principal {
@@ -49,9 +50,26 @@ body {
     border-top: none;
 }
 
+.botao:first-child {
+    border-radius: 40px 40px 0 0;
+}
+
 .botoes { 
     display: block;
 }
+.botao.ativo{
+   background-color: var(--botao-ativo);
+   border-bottom: 4px solid var();
+
+}
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 768px) { 
     .botoes { 
