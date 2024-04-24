@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root {
     --cor-de-fundo: #1E1E1E;
@@ -12,16 +12,17 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-    font-family: "Montserrat ital";
+    font-family: "Chakra Petch", sans-serif;
 }
 
-.conteudo-principal {
+.conteudo-principal{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     margin: 0 auto;
+
 }
 
 .conteudo-principal {
@@ -34,18 +35,18 @@ body {
     color: var(--verde);
 }
 
-.botao { 
-    font-family: "Crakra Petch", sans-serif;
+.botao {
+    font-family: "Chakra Petch", sans-serif;
     background-color: var(--botao-inativo);
-    color: var(--branco); 
+    color: var(--branco);
     display: flex;
     justify-content: center;
     padding: 1em;
-    font-size: 18px;
+    font-size: 16px;
     align-items: center;
     width: 100%;
-    border-bottom: 4px solid var(--botao-ativo); 
-    border-left: 2px solid var(--botao-ativo); 
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
@@ -54,12 +55,13 @@ body {
     border-radius: 40px 40px 0 0;
 }
 
-.botoes { 
+.botoes {
     display: block;
 }
-.botao.ativo{
-   background-color: var(--botao-ativo);
-   border-bottom: 4px solid var(--verde);
+
+.botao.ativo {
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
 }
 
 .abas-textos{
@@ -109,14 +111,6 @@ body {
     margin: 0;
 }
 
-.situacao{
-    color: var(--verde);
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-}
-
 @media screen and (min-width: 768px) {
     .botoes{
         display: flex;
@@ -128,11 +122,3 @@ body {
         border-radius: 0 40px 0 0;
     }
 }
-
-
-
-
-
-
-
-
